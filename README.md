@@ -10,9 +10,34 @@
  (隱藏程式細節，避免直接處理造成的困擾。使開發與維護更容易)
  例舉: 不需要知道電腦啟動的原理，只需要按下電源鍵就可以開機．
  
+ ### code
+ 
+public class Encapsulation{
+    private int value = 0;
+    
+    public void ChangeValue(int vale)
+    {
+        this.value = val;
+    }
+}
+
+Encapsulation encapsulation = new Encapsulation();
+//do change value
+encapsulation.value = 10;//xx
+encapsulation.ChangeValue(10);//oo
+
+ 
+ 
+ 
  ## 繼承
  目的是要達到「程式碼再用」(Code Rause) 或「介面再用」。
  透過繼承，可以適當的切割類別，並在衍生類別中重複使用、擴充和修改基底類別中定義的行為，又不破壞原先基底類別設計。
+ 
+  ### code
+ 
+public class Inheritance extends InherParent{
+    int selfVal = 0;
+}
  
  ## 多型
  多型 (Polymorphism) 指的是不同型態的物件，定義相同的操作介面，由於被呼叫者 (Callee) 有著相同的介面，呼叫者並不用指
