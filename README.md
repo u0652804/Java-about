@@ -53,6 +53,31 @@
  
  ## 多型
 多型(Polymorphism)，簡單來說就是同名的方法。多個相同名稱的方法，傳入不同的參數，會執行不同的敘述。 比方說，一個計算面積的方法，如果傳入一個參數，就當正方形來算面積；傳入兩個參數，就當成長方形來算面積。
+
+### Java code
+### class
+    public class Polymorphism {
+    	
+    	public void polyTest(int a)
+    	{
+    		System.out.println("input have 1 data : a = " + a);
+    	}
+    	
+    	public void polyTest(int a, int b)
+    	{
+    		System.out.println("input have 2 data : a = " + a + " b = " + b);
+    	}
+    
+    }
+### main
+		System.out.println("Polymorphism's Overloading : ");
+		System.out.println("----------------------");
+		
+		Polymorphism poly1 = new Polymorphism();
+		poly1.polyTest(2333);
+		poly1.polyTest(2333, 66666);
+		System.out.println("\n");
+
  
  ## 引用
  http://stan-blog.logdown.com/posts/471289-what-is-the-inheritance
