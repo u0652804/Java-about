@@ -16,9 +16,6 @@
 
 ![javaAbout-static](/image/javaAbout-static.png)
 
-### example
-
-
 # about final
 最後的(值)，相當於常數(在宣告final時一定得給予初始值，並且無法在後續改變數值)
 
