@@ -11,6 +11,7 @@
  例舉: 不需要知道電腦啟動的原理，只需要按下電源鍵就可以開機．
 
 ### Java code
+### class Encapsulation
     public class Encapsulation{
         private int value = 0;
         
@@ -19,8 +20,7 @@
             this.value = val;
         }
     }
-###
-
+### main
     Encapsulation encapsulation = new Encapsulation();
     //do change value
     encapsulation.value = 10;//xx
