@@ -19,6 +19,7 @@
             this.value = val;
         }
     }
+###
 
     Encapsulation encapsulation = new Encapsulation();
     //do change value
