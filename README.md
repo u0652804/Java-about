@@ -9,22 +9,21 @@
  目的是將 Class 裡的屬性用 private 隱藏，只能透過public的方法存取資料。
  (隱藏程式細節，避免直接處理造成的困擾。使開發與維護更容易)
  例舉: 不需要知道電腦啟動的原理，只需要按下電源鍵就可以開機．
- 
- ### code
- 
-public class Encapsulation{
-    private int value = 0;
-    
-    public void ChangeValue(int vale)
-    {
-        this.value = val;
-    }
-}
 
-Encapsulation encapsulation = new Encapsulation();
-//do change value
-encapsulation.value = 10;//xx
-encapsulation.ChangeValue(10);//oo
+### Java code
+    public class Encapsulation{
+        private int value = 0;
+        
+        public void ChangeValue(int vale)
+        {
+            this.value = val;
+        }
+    }
+
+    Encapsulation encapsulation = new Encapsulation();
+    //do change value
+    encapsulation.value = 10;//xx
+    encapsulation.ChangeValue(10);//oo
 
  
  
