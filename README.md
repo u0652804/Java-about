@@ -1,18 +1,21 @@
 # Java
 
-# 物件導向三大特性:
+# 物件導向三大特性
  - 封裝(Encapsulation)
  - 繼承(Inheritance)
  - 多型(Polymorphism)
  
  ### 封裝
+ #
  
  ### 繼承
+ #
  
  ### 多型
+ #
  
  ### 引用
- 
+ #
  http://stan-blog.logdown.com/posts/471289-what-is-the-inheritance
 
 # about static
