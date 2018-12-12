@@ -105,7 +105,5 @@ ArrayList和vector都以陣列做為數據結構。
  
  - Resize: ArrayList和vector都可以動態增加大小。差別在於ArrayList增長現有大小的一半; vector則是增長為現有大小的兩倍。
  
- - 效能: ArrayList效能較好;vector為了線程安全的問題，所以效能較差。
+ - 效能: ArrayList效能較好; vector為了線程安全的問題，所以效能較差。
  
-
-![javaAbout-final](/image/javaAbout-final.png)
