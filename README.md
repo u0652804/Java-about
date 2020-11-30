@@ -86,11 +86,6 @@
  https://noob.tw/java-oop/
  </br>
 
-## about static
-靜態(配置記憶體)，宣告為static的變數具有唯一值，並且會固定存放於宣告時配置的記憶體位置．
-
-![javaAbout-static](/image/javaAbout-static.png)
-
 ## about final
 最後的(值)，相當於常數(在宣告final時一定得給予初始值，並且無法在後續改變數值)
 
